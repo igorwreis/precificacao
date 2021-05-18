@@ -31,7 +31,7 @@ def busca_vol(a):
 
     try:
 
-        ativo = str(a).upper().upper().replace(" ", "")
+        ativo = str(a).strip().upper().replace(" ", "")
 
         url = "https://sistemaswebb3-listados.b3.com.br/securitiesVolatilityPage/standard-deviation/false?language=pt-br"
 

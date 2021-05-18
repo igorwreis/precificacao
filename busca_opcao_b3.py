@@ -39,7 +39,7 @@ def busca_codigo(a):
 
     try:
 
-        ativo = str(a).upper().upper().replace(" ", "")
+        ativo = str(a).strip().upper().replace(" ", "")
 
         url = "http://bvmf.bmfbovespa.com.br/cias-listadas/Titulos-Negociaveis/BuscaTitulosNegociaveis.aspx?idioma=pt-br"
 

@@ -21,14 +21,10 @@ def busca_codigo(a):
     """
 
     # INSTALAR BIBLIOTECAS ABAIXO NO AMBIENTE A SER UTILIZADO !
-    # pip install bs4
     # pip install selenium
     # pip install webdriver-manager
 
-    from getpass import getuser
     from time import sleep
-    import pandas as pd
-    from bs4 import BeautifulSoup as bs
     from selenium import webdriver
     from webdriver_manager.chrome import ChromeDriverManager
     from selenium.webdriver.support.ui import WebDriverWait
